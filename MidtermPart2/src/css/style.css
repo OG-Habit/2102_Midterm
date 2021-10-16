@@ -1,0 +1,114 @@
+/* GLOBAL */
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    text-align: center;
+}
+
+button, input[type="submit"] {
+    font-size: large;
+}
+
+/* GLOBAL */
+
+
+/* LOGIN PAGE */
+
+.login {
+    text-align: center;
+}
+
+.login__h1 {
+    text-align: left;
+}
+
+.login-container {
+    margin: 50px auto;
+    display: inline-block;
+}
+
+.login-form {
+    border: 2px solid rgb(91, 180, 252);
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.login-form__label {
+    margin-right: 20px;
+}
+
+/* LOGIN PAGE */
+
+/* ADMIN PAGE */
+
+.btn-cont {
+    margin: 25px 0;
+}
+
+.user-form__input-container, .event-form__input-container {
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.user-form__input-container {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 200px);
+}
+
+.event-form__input-container {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 200px);
+}
+
+.event {
+    border: 1px solid rgb(75, 204, 255);
+    padding: 1em 0;
+    margin: 25px auto;
+    width: 850px;
+}
+
+.event img {
+    width: auto;
+    max-height: 480px;
+    max-width: 650px;
+}
+
+.event h1 {
+    margin: 10px 0;
+}
+
+.event__btn-cont {
+    display: flex;  
+    justify-content: center;
+    gap: 40px;
+}
+
+.event__prompt {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event__prompt h2 {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.event__btn-cont.hide {
+    display: none;
+}
+
+/* ADMIN PAGE */
